@@ -1,0 +1,174 @@
+{
+  "id": "e13cb9122d2eb004020db3bcea366272",
+  "_format": "hh-sol-build-info-1",
+  "solcVersion": "0.7.6",
+  "solcLongVersion": "0.7.6+commit.7338295f",
+  "input": {
+    "language": "Solidity",
+    "sources": {
+      "contracts/test.sol": {
+        "content": "// SPDX-License-Identifier: MIT\n \npragma solidity ^0.7.6;\n\ncontract test {\n    uint256 test = 10101;\n}"
+      }
+    },
+    "settings": {
+      "optimizer": {
+        "enabled": false,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata"
+          ],
+          "": [
+            "ast"
+          ]
+        }
+      }
+    }
+  },
+  "output": {
+    "contracts": {
+      "contracts/test.sol": {
+        "test": {
+          "abi": [],
+          "evm": {
+            "bytecode": {
+              "generatedSources": [],
+              "linkReferences": {},
+              "object": "6080604052612775600055348015601557600080fd5b50603f8060236000396000f3fe6080604052600080fdfea26469706673582212202f7dd39e8d3a1027343b9955125b06f61e2be045cc7cac7243243be1d3680f8864736f6c63430007060033",
+              "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH2 0x2775 PUSH1 0x0 SSTORE CALLVALUE DUP1 ISZERO PUSH1 0x15 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x23 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x2F PUSH30 0xD39E8D3A1027343B9955125B06F61E2BE045CC7CAC7243243BE1D3680F88 PUSH5 0x736F6C6343 STOP SMOD MOD STOP CALLER ",
+              "sourceMap": "59:43:0:-:0;;;94:5;79:20;;59:43;;;;;;;;;;;;;;;;"
+            },
+            "deployedBytecode": {
+              "generatedSources": [],
+              "immutableReferences": {},
+              "linkReferences": {},
+              "object": "6080604052600080fdfea26469706673582212202f7dd39e8d3a1027343b9955125b06f61e2be045cc7cac7243243be1d3680f8864736f6c63430007060033",
+              "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x2F PUSH30 0xD39E8D3A1027343B9955125B06F61E2BE045CC7CAC7243243BE1D3680F88 PUSH5 0x736F6C6343 STOP SMOD MOD STOP CALLER ",
+              "sourceMap": "59:43:0:-:0;;;;;"
+            },
+            "methodIdentifiers": {}
+          },
+          "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/test.sol\":\"test\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/test.sol\":{\"keccak256\":\"0x9f3a4835b2f8fdc4590c95326377b0ada84d1b94781e75820e5be8404f5a719a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9a3e609c45bd6e871e396a57b945ee5cbbd42795a3113f8c72a634ef19095b8f\",\"dweb:/ipfs/QmUm9NCsV9hME3ArJ4rwXitGbfZ5AxiQ6iwAHYD8x8r1mR\"]}},\"version\":1}"
+        }
+      }
+    },
+    "errors": [
+      {
+        "component": "general",
+        "errorCode": "2519",
+        "formattedMessage": "contracts/test.sol:6:5: Warning: This declaration shadows an existing declaration.\n    uint256 test = 10101;\n    ^------------------^\ncontracts/test.sol:5:1: The shadowed declaration is here:\ncontract test {\n^ (Relevant source part starts here and spans across multiple lines).\n",
+        "message": "This declaration shadows an existing declaration.",
+        "secondarySourceLocations": [
+          {
+            "end": 102,
+            "file": "contracts/test.sol",
+            "message": "The shadowed declaration is here:",
+            "start": 59
+          }
+        ],
+        "severity": "warning",
+        "sourceLocation": {
+          "end": 99,
+          "file": "contracts/test.sol",
+          "start": 79
+        },
+        "type": "Warning"
+      }
+    ],
+    "sources": {
+      "contracts/test.sol": {
+        "ast": {
+          "absolutePath": "contracts/test.sol",
+          "exportedSymbols": {
+            "test": [
+              5
+            ]
+          },
+          "id": 6,
+          "license": "MIT",
+          "nodeType": "SourceUnit",
+          "nodes": [
+            {
+              "id": 1,
+              "literals": [
+                "solidity",
+                "^",
+                "0.7",
+                ".6"
+              ],
+              "nodeType": "PragmaDirective",
+              "src": "34:23:0"
+            },
+            {
+              "abstract": false,
+              "baseContracts": [],
+              "contractDependencies": [],
+              "contractKind": "contract",
+              "fullyImplemented": true,
+              "id": 5,
+              "linearizedBaseContracts": [
+                5
+              ],
+              "name": "test",
+              "nodeType": "ContractDefinition",
+              "nodes": [
+                {
+                  "constant": false,
+                  "id": 4,
+                  "mutability": "mutable",
+                  "name": "test",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 5,
+                  "src": "79:20:0",
+                  "stateVariable": true,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "79:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": {
+                    "hexValue": "3130313031",
+                    "id": 3,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "number",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "94:5:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_rational_10101_by_1",
+                      "typeString": "int_const 10101"
+                    },
+                    "value": "10101"
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "scope": 6,
+              "src": "59:43:0"
+            }
+          ],
+          "src": "34:68:0"
+        },
+        "id": 0
+      }
+    }
+  }
+}

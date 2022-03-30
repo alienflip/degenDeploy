@@ -1,6 +1,7 @@
 require("@nomiclabs/hardhat-waffle");
 
-const BURNER_PRIVATE_KEY = fs_.readFileSync(".burnerPrivate").toString().trim();
+const fs_ = require('fs');
+const BURNER_PRIVATE_KEY = fs_.readFileSync("../.burnerPrivate").toString().trim();
 
 module.exports = {
   solidity: "0.7.6",

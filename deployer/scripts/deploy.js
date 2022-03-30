@@ -1,3 +1,5 @@
+const {promises:fs} = require('fs');
+
 async function main() {
     const [deployer] = await ethers.getSigners();
   
@@ -9,6 +11,9 @@ async function main() {
     const test = await Contract.deploy();
   
     console.log("test contract address:", test.address);
+    await fs.writeFile('../.anonContractAddress', test.address, (err) => {
+        if (err) throw err;
+    });
 }
 
 main()
