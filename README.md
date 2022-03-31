@@ -60,9 +60,9 @@ node deployer/scripts/burner.js
 
 ## Deploy and fund mixer
 
-- `deployNativeAnchor.js`: This script will deploy a new mixer, using the wallet in `.env`.
+> `deployNativeAnchor.js`: This script will deploy a new mixer, using the wallet in `.env`.
 
-- `multipleDeposit.js`: This script will fund a new mixer with lots of harmonyONE, using the wallet in `.env`.
+> `multipleDeposit.js`: This script will fund a new mixer with lots of harmonyONE, using the wallet in `.env`.
 
 ```
 cd scripts
@@ -74,7 +74,7 @@ node multipleDeposit.js
 
 ## Add deposit to mixer
 
-- `depositNativeAnchor.js`: This script will make a deposit to the mixer and return the secret note used to withdraw, using funds from the wallet in `.env`.
+> `depositNativeAnchor.js`: This script will make a deposit to the mixer and return the secret note used to withdraw, using funds from the wallet in `.env`.
 
 ```
 node depositNativeAnchor.js
@@ -84,7 +84,7 @@ node depositNativeAnchor.js
 
 ## Fund burner account
 
-- `withdrawNativeAnchor.js`: This script will withdraw from the mixer, and deposit to `.burnerAddress`.
+> `withdrawNativeAnchor.js`: This script will withdraw from the mixer, and deposit to `.burnerAddress`.
 
 ```
 node withdrawNativeAnchor.js
