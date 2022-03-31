@@ -83,6 +83,8 @@ node withdrawNativeAnchor.js
 
 ## Deploy new contract with burner wallet
 
+> deploys `test.sol`
+
 ```
 cd ~/degenDeploy/deployer
 npx hardhat run scripts/deploy.js --network harmony
