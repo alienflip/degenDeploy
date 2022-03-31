@@ -100,4 +100,4 @@ To use these scripts, `cd scripts` and run `node <script> <...args>`.
 
 - `withdrawNativeAnchor.js`: This script will withdraw from the mixer at the address given the secret note and recipient, and deposit to `burnerAddress`.
 
-> main deployment forked from [here](https://github.com/webb-tools/tornado-core)
+> majority of this repo forked from [webb protocol](https://github.com/webb-tools/tornado-core)
