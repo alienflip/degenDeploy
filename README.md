@@ -16,7 +16,7 @@
 
 ------------
 
-## install
+## Install
 
 ```
 git clone git@github.com:alienflip/degenDeploy.git
@@ -56,7 +56,7 @@ cd ~/degenDeploy
 node deployer/scripts/burner.js
 ```
 
-## deploy and fund mixer
+## Deploy and fund mixer
 
 ```
 cd scripts
@@ -64,26 +64,26 @@ node deployNativeAnchor.js
 node multipleDeposit.js
 ```
 
-## add deposit to mixer
+## Add deposit to mixer
 
 ```
 node depositNativeAnchor.js
 ```
 
-## fund burner account
+## Fund burner account
 
 ```
 node withdrawNativeAnchor.js
 ```
 
-## deploy new contract with burner wallet
+## Deploy new contract with burner wallet
 
 ```
 cd ~/degenDeploy/deployer
 npx hardhat run scripts/deploy.js --network harmony
 ```
 
-## script legend
+## Script legend
 
 Some scripts have been provided in the `scripts/` directory to interact with mixer contracts.
 To use these scripts, `cd scripts` and run `node <script> <...args>`. 
