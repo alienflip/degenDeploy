@@ -58,7 +58,9 @@ node deployer/scripts/burner.js
 
 ## Deploy and fund mixer
 
-> `.addressNativeAnchor` : this is the mixer address, updated on new deployments
+- `deployNativeAnchor.js`: This script will deploy a new mixer. The user may optionally provide the command-line arguments of addresses for the hasher and verifier, so as to not waste gas on redeployments. Simply modify the denomination to easily create mixers of different sizes, using the wallet in `.env`.
+
+- `multipleDeposit.js`: This script will fund a new mixer with lots of harmonyONE, using the wallet in `.env`.
 
 ```
 cd scripts
@@ -66,15 +68,21 @@ node deployNativeAnchor.js
 node multipleDeposit.js
 ```
 
+> `.addressNativeAnchor` : this is the mixer address, updated on new deployments
+
 ## Add deposit to mixer
 
-> `.secretNote` : this is updated when  `depositNativeAnchor.js` is called
+- `depositNativeAnchor.js`: This script will make a deposit to the mixer at the passed in address and return the secret note used to withdraw, using funds from the wallet in `.env`.
 
 ```
 node depositNativeAnchor.js
 ```
 
+> `.secretNote` : this is updated when  `depositNativeAnchor.js` is called
+
 ## Fund burner account
+
+- `withdrawNativeAnchor.js`: This script will withdraw from the mixer at the address given the secret note and recipient, and deposit to `.burnerAddress`.
 
 ```
 node withdrawNativeAnchor.js
@@ -88,22 +96,5 @@ node withdrawNativeAnchor.js
 cd ~/degenDeploy/deployer
 npx hardhat run scripts/deploy.js --network harmony
 ```
-
-## Script legend
-
-Some scripts have been provided in the `scripts/` directory to interact with mixer contracts.
-To use these scripts, `cd scripts` and run `node <script> <...args>`. 
-
-> deploying new mixer:
-
-- `deployNativeAnchor.js`: This script will deploy a new mixer. The user may optionally provide the command-line arguments of addresses for the hasher and verifier, so as to not waste gas on redeployments. Simply modify the denomination to easily create mixers of different sizes, using the wallet in `.env`.
-
-- `multipleDeposit.js`: This script will fund a new mixer with lots of harmonyONE, using the wallet in `.env`.
-
-> using existing mixer:
-
-- `depositNativeAnchor.js`: This script will make a deposit to the mixer at the passed in address and return the secret note used to withdraw, using funds from the wallet in `.env`.
-
-- `withdrawNativeAnchor.js`: This script will withdraw from the mixer at the address given the secret note and recipient, and deposit to `burnerAddress`.
 
 > majority of this repo forked from [webb protocol](https://github.com/webb-tools/tornado-core)
