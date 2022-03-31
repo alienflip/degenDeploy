@@ -90,11 +90,11 @@ node withdrawNativeAnchor.js
 
 ## Deploy new contract with burner wallet
 
-> deploys `test.sol`
-
 ```
 cd ~/degenDeploy/deployer
 npx hardhat run scripts/deploy.js --network harmony
 ```
 
-> majority of this repo forked from [webb protocol](https://github.com/webb-tools/tornado-core)
+> deploys `test.sol`
+
+majority of this repo forked from [webb protocol](https://github.com/webb-tools/tornado-core)
