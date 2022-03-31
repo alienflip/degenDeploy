@@ -58,7 +58,7 @@ node deployer/scripts/burner.js
 
 ## Deploy and fund mixer
 
-> `.addressNativeAnchor` : this is the mixer address, updted on new deployments
+> `.addressNativeAnchor` : this is the mixer address, updated on new deployments
 
 ```
 cd scripts
