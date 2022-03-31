@@ -49,12 +49,12 @@ npm i
 
 ## Set up burner
 
-> `.burnerAddress` / `.burnerPrivate` : these are updated when a new burner is created
-
 ```
 cd ~/degenDeploy
 node deployer/scripts/burner.js
 ```
+
+> `.burnerAddress` / `.burnerPrivate` : these are updated when a new burner is created
 
 ## Deploy and fund mixer
 
