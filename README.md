@@ -31,13 +31,6 @@ Before starting, you should add your funding wallet to `.env.example`, then do
 cp .env.example .env 
 ```
 
->
-> `.addressNativeAnchor` : this is the mixer address, updted on new deployments
->
-> `.secretNote` : this is updated when  `depositNativeAnchor.js` is called
->
-> `.burnerAddress` / `.burnerPrivate` : these are updated when a new burner is created
-
 ## Build 👷
 
 The repo has been setup with the proving and verifier keys generated from tornado cash's trusted setup ceremony.
@@ -56,12 +49,16 @@ npm i
 
 ## Set up burner
 
+> `.burnerAddress` / `.burnerPrivate` : these are updated when a new burner is created
+
 ```
 cd ~/degenDeploy
 node deployer/scripts/burner.js
 ```
 
 ## Deploy and fund mixer
+
+> `.addressNativeAnchor` : this is the mixer address, updted on new deployments
 
 ```
 cd scripts
@@ -70,6 +67,8 @@ node multipleDeposit.js
 ```
 
 ## Add deposit to mixer
+
+> `.secretNote` : this is updated when  `depositNativeAnchor.js` is called
 
 ```
 node depositNativeAnchor.js
