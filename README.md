@@ -49,6 +49,11 @@ cd deployer
 npm i
 ```
 
+## Edit anon contract
+
+> edit
+`deployer/contracts/test.sol`
+
 ## Set up burner
 
 ```
