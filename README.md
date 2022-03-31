@@ -23,6 +23,8 @@ git clone git@github.com:alienflip/degenDeploy.git
 cd degenDeploy
 ```
 
+-----------
+
 ## Configuration files 🛠️
 
 Before starting, you should add your funding wallet to `.env.example`, then do
@@ -96,5 +98,7 @@ npx hardhat run scripts/deploy.js --network harmony
 ```
 
 > deploys `test.sol`
+
+-----------
 
 majority of this repo forked from [webb protocol](https://github.com/webb-tools/tornado-core)
