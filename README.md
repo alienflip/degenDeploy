@@ -56,7 +56,7 @@ cd ~/degenDeploy
 node deployer/scripts/burner.js
 ```
 
-> `.burnerAddress` / `.burnerPrivate` : these are updated when a new burner is created
+> `.burnerAddress` / `.burnerPrivate`: these are updated when a new burner is created
 
 ## Deploy and fund mixer
 
@@ -70,7 +70,7 @@ node deployNativeAnchor.js
 node multipleDeposit.js
 ```
 
-> `.addressNativeAnchor` : this is the mixer address, updated on new deployments
+> `.addressNativeAnchor`: this is the mixer address, updated on new deployments
 
 ## Add deposit to mixer
 
@@ -80,7 +80,7 @@ node multipleDeposit.js
 node depositNativeAnchor.js
 ```
 
-> `.secretNote` : this is updated when  `depositNativeAnchor.js` is called
+> `.secretNote`: this is updated when  `depositNativeAnchor.js` is called
 
 ## Fund burner account
 
