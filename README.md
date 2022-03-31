@@ -101,4 +101,4 @@ npx hardhat run scripts/deploy.js --network harmony
 
 -----------
 
-majority of this repo forked from [webb protocol](https://github.com/webb-tools/tornado-core)
+The majority of this repo forked from [webb protocol](https://github.com/webb-tools/tornado-core)
