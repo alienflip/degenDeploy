@@ -62,7 +62,8 @@ node deployer/scripts/burner.js
 
 > `deployNativeAnchor.js`: This script will deploy a new mixer, using the wallet in `.env`.
 
-> `multipleDeposit.js`: This script will fund a new mixer with lots of harmonyONE, using the wallet in `.env`. NOTE: this is obviously not what should be done in production, as it is obvious who is adding and removing funds. In production, all deposits should come from different addresses. This is for demo purposes.
+> `multipleDeposit.js`: This script will fund a new mixer with lots of harmonyONE, using the wallet in `.env`. 
+>  > NOTE: this is obviously not what should be done in production, as it is obvious who is adding and removing funds. In production, all deposits should come from different addresses. This is for demo purposes.
 
 ```
 cd scripts
