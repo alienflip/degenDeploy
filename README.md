@@ -104,7 +104,7 @@ npx hardhat run scripts/deploy.js --network harmony
 
 # IPFS
 
-To host this on IPFS, you can use the WebUI by [following this explanation](https://docs.ipfs.io/how-to/command-line-quick-start/#prerequisites), and then cloneing this repo and importing it to your node in the `FILES` tab of the WebUI.
+To host this on IPFS, you can use the WebUI by [following this explanation](https://docs.ipfs.io/how-to/command-line-quick-start/#prerequisites), and then cloning this repo and importing it to your node in the `FILES` tab of the WebUI.
 
 -----------
 
