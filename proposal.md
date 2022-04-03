@@ -4,9 +4,9 @@
 
 # Proposal Overview
 
->  In this app, make a walkthrough which culminates in deploying a contract as an anon to the harmony testnet, using zero knowledge proofs through the use of a mixer.
-
 ## Use Case
+
+> In this app, make a walkthrough which culminates in deploying a contract as an anon to the harmony testnet, using zero knowledge proofs. This tool will do it all for you, except the physical IP handling.
 
 # Proposal Ask
 
