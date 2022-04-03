@@ -41,21 +41,11 @@ Beta Testing and Fixes	May 31st	Pending
 Smart Contract Audit	June 30th	Pending
 Mainnet Launch	August 31st	Pending
 
-{{< example class="bd-example-row" >}}
-<div class="container">
-  <div class="row">
-    <div class="col">
-      Objective
-    </div>
-    <div class="col">
-      Date
-    </div>
-    <div class="col">
-      Status
-    </div>
-  </div>
-</div>
-{{< /example >}}
+---
+title: "Grid"
+description: "The .NET MAUI Grid is a layout that organizes its children into rows and columns of cells."
+ms.date: 12/28/2021
+---
 
 # Competing Projects
 
