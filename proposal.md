@@ -41,11 +41,23 @@ Beta Testing and Fixes	May 31st	Pending
 Smart Contract Audit	June 30th	Pending
 Mainnet Launch	August 31st	Pending
 
----
-title: "Grid"
-description: "The .NET MAUI Grid is a layout that organizes its children into rows and columns of cells."
-ms.date: 12/28/2021
----
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GridDemos.Views.XAML.BasicGridPage"
+             Title="Basic Grid demo">
+   <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="100" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        ...
+    </Grid>
+</ContentPage>
 
 # Competing Projects
 
