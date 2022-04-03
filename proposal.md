@@ -34,30 +34,14 @@ This ask will be in line with the laid down milestones as detailed below
 
 # Roadmap
 
-Road Map
-Objective	Date	Status
-Testnet launch	March 19th	Done
-Beta Testing and Fixes	May 31st	Pending
-Smart Contract Audit	June 30th	Pending
-Mainnet Launch	August 31st	Pending
+| Objective | Date | Status 
+| ---- | ---- | ----------- | -------
+| Testnet | ... | Done | **Required**
+| Beta | ... | Pending | **Required**
+| Beta Testing and Fixes | ... | Pending | **Required**
+| Smart Contract Audit | ... | Pending | **Required**
+| Mainnet | ... | Pending | 0
 
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="GridDemos.Views.XAML.BasicGridPage"
-             Title="Basic Grid demo">
-   <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="2*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="100" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-        ...
-    </Grid>
-</ContentPage>
 
 # Competing Projects
 
