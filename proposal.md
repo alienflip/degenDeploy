@@ -37,10 +37,10 @@ This ask will be in line with the laid down milestones as detailed below
 | Objective | Date | Status 
 | ---- | ---- | ----------- 
 | Testnet | 03/04/2022 | Done 
-| Beta | ... | Pending 
-| Beta Testing and Fixes | ... | Pending 
-| Smart Contract Audit | ... | Pending 
-| Mainnet | ... | Pending 
+| Beta | 03/05/2022 | Pending 
+| Beta Testing and Fixes | 03/06/2022 | Pending 
+| Smart Contract Audit | 03/07/2022 | Pending 
+| Mainnet | 03/08/2022 | Pending 
 
 
 # Competing Projects
