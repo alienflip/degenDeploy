@@ -30,8 +30,6 @@ This ask will be in line with the laid down milestones as detailed below
 
 [github project](https://github.com/alienflip/degenDeploy)
 
-[forked from](https://github.com/webb-tools/tornado-core)
-
 # Competing Projects
 
 > none which we are aware of
