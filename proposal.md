@@ -4,9 +4,12 @@
 
 # Proposal Overview
 
+> In this app, make a walkthrough which culminates in deploying a contract as an anon to the harmony testnet, using zero knowledge proofs, through the use of a mixer. This tool will do it all for you, except the physical IP handling.
+
 ## Use Case
 
-> In this app, make a walkthrough which culminates in deploying a contract as an anon to the harmony testnet, using zero knowledge proofs, through the use of a mixer. This tool will do it all for you, except the physical IP handling.
+1. For any actor who wishes to provide a service with anonymity
+2. For any actor who wishes to interact with another service with anonymity
 
 # Proposal Ask
 
@@ -14,15 +17,15 @@ In order to get this up and running, we request $15k/year stable basic income to
 
 This ask will be in line with the laid down milestones as detailed below
 
-> 1. launching a feature-complete product on testnet 
+1. launching a feature-complete product on testnet 
 
-> 2. forming a DAO with 5-out-of-9 multisig with our DAOs 
+2. forming a DAO with 5-out-of-9 multisig with our DAOs 
 
-> 3. launching on ONE mainnet ( initial version already available on ONE mainnet) 
+3. launching on ONE mainnet ( initial version already available on ONE mainnet) 
 
-> 4. attracting 1k daily active users (with launch video, PR promotion) 
+4. attracting 1k daily active users (with launch video, PR promotion) 
 
-> 5. attracting 10k daily active users (with a detailed roadmap, governance process) 
+5. attracting 10k daily active users (with a detailed roadmap, governance process) 
 
 # External Links
 
