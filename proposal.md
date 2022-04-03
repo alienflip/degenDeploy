@@ -34,8 +34,8 @@ This ask will be in line with the laid down milestones as detailed below
 
 # Competing Projects
 
-> none which I am aware of!
+> none which we are aware of
 
 # Community
 
-> we need many people to make deposits to the anchor here, so that the mixer works correctly!
+> we need many people to make deposits to the anchor here, so that the mixer works correctly
