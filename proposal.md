@@ -34,7 +34,7 @@ This ask will be in line with the laid down milestones as detailed below
 
 # Roadmap
 
-| Objective | Date | Status 
+| Objective | Date | Status | x
 | ---- | ---- | ----------- | -------
 | Testnet | ... | Done | **Required**
 | Beta | ... | Pending | **Required**
