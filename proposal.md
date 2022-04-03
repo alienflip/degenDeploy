@@ -49,6 +49,4 @@ This ask will be in line with the laid down milestones as detailed below
 
 > we need many people to make deposits to the anchor here, so that the mixer works correctly
 
-# Demo
-
-![demo](https://youtu.be/12kp4Ju2sRQ)
+# [Demo](https://youtu.be/12kp4Ju2sRQ)
