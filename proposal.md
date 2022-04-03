@@ -14,15 +14,15 @@ In order to get this up and running, we request $15k/year stable basic income to
 
 This ask will be in line with the laid down milestones as detailed below
 
-> 1. launching a feature-complete product on testnet
+> 1. launching a feature-complete product on testnet 
 
-> 2. forming a DAO with 5-out-of-9 multisig with our DAOs
+> 2. forming a DAO with 5-out-of-9 multisig with our DAOs 
 
-> 3. launching on ONE mainnet ( initial version already available on ONE mainnet)
+> 3. launching on ONE mainnet ( initial version already available on ONE mainnet) 
 
-> 4. attracting 1k daily active users (with launch video, PR promotion)
+> 4. attracting 1k daily active users (with launch video, PR promotion) 
 
-> 5. attracting 10k daily active users (with a detailed roadmap, governance process)
+> 5. attracting 10k daily active users (with a detailed roadmap, governance process) 
 
 # External Links
 
@@ -32,6 +32,31 @@ This ask will be in line with the laid down milestones as detailed below
 
 [github project](https://github.com/alienflip/degenDeploy)
 
+# Roadmap
+
+Road Map
+Objective	Date	Status
+Testnet launch	March 19th	Done
+Beta Testing and Fixes	May 31st	Pending
+Smart Contract Audit	June 30th	Pending
+Mainnet Launch	August 31st	Pending
+
+{{< example class="bd-example-row" >}}
+<div class="container">
+  <div class="row">
+    <div class="col">
+      Objective
+    </div>
+    <div class="col">
+      Date
+    </div>
+    <div class="col">
+      Status
+    </div>
+  </div>
+</div>
+{{< /example >}}
+
 # Competing Projects
 
 > none which we are aware of
@@ -39,3 +64,7 @@ This ask will be in line with the laid down milestones as detailed below
 # Community
 
 > we need many people to make deposits to the anchor here, so that the mixer works correctly
+
+# Demo
+
+![demo]()
