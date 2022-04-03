@@ -34,13 +34,13 @@ This ask will be in line with the laid down milestones as detailed below
 
 # Roadmap
 
-| Objective | Date | Status | x
-| ---- | ---- | ----------- | -------
-| Testnet | ... | Done | **Required**
-| Beta | ... | Pending | **Required**
-| Beta Testing and Fixes | ... | Pending | **Required**
-| Smart Contract Audit | ... | Pending | **Required**
-| Mainnet | ... | Pending | 0
+| Objective | Date | Status 
+| ---- | ---- | ----------- 
+| Testnet | ... | Done 
+| Beta | ... | Pending 
+| Beta Testing and Fixes | ... | Pending 
+| Smart Contract Audit | ... | Pending 
+| Mainnet | ... | Pending 
 
 
 # Competing Projects
