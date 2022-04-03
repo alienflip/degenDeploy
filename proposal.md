@@ -26,7 +26,9 @@ This ask will be in line with the laid down milestones as detailed below
 
 # External Links
 
-[main project](https://github.com/alienflip/degenDeploy)
+[testnet deployment (native anchor)](https://explorer.pops.one/address/0x76cdbf0b59d54f3ed551e24929b0aae1c7541241)
+
+[github project](https://github.com/alienflip/degenDeploy)
 
 [forked from](https://github.com/webb-tools/tornado-core)
 
