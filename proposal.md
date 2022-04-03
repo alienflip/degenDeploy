@@ -32,7 +32,6 @@ This ask will be in line with the laid down milestones as detailed below
 
 [forked from](https://github.com/webb-tools/tornado-core)
 
-## Competing Projects
+# Competing Projects
 
-> none which I am aware of
-
+> none which I am aware of!
