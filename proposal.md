@@ -27,7 +27,7 @@ This ask will be in line with the laid down milestones as detailed below
 
 [testnet deployment (native anchor)](https://explorer.pops.one/address/0x76cdbf0b59d54f3ed551e24929b0aae1c7541241)
 
-[testnet deployment (anon contract)](https://explorer.pops.one/address/0xb4c1af5882b28321577e3814f93d968bf53d3949)
+[testnet example deployment (anon contract)](https://explorer.pops.one/address/0xb4c1af5882b28321577e3814f93d968bf53d3949)
 
 [github project](https://github.com/alienflip/degenDeploy)
 
