@@ -44,6 +44,7 @@ This ask will be in line with the laid down milestones as detailed below
 # Competing Projects
 
 > none which we are aware of
+> > note that a large part of the project is the off-chain deployment system, 
 
 # Community
 
