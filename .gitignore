@@ -1,3 +1,7 @@
 node_modules
 deployer/node_modules
 .env
+.addressNativeAnchor
+.secretNote
+.burnerAddress
+.burnerPrivate
