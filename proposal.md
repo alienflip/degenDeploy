@@ -36,10 +36,10 @@ This ask will be in line with the laid down milestones as detailed below
 | Objective | Date | Status 
 | ---- | ---- | ----------- 
 | Testnet | 03/04/2022 | Done 
-| Beta | 03/05/2022 | Pending 
-| Beta Testing and Fixes | 03/06/2022 | Pending 
-| Smart Contract Audit | 03/07/2022 | Pending 
-| Mainnet | 03/08/2022 | Pending 
+| DAO formation | 03/05/2022 | Pending 
+| Mainnet | 03/06/2022 | Pending 
+| 1k users | 03/07/2022 | Pending 
+| 10k users | 03/08/2022 | Pending 
 
 # Competing Projects
 
