@@ -1,10 +1,14 @@
+# degenDeploy
+
+In this project, we fork [webb-tools implimentation of tornado-core](https://github.com/webb-tools/tornado-core), deploy the tornado core contract to harmony test-net using a 'public' (traceable) account, and then extend the tools provided to demonstrate how to deploy another a contract as an anonymous user, using a dummy account!
+
 # Application Type
 
 > zkApp
 
 # Proposal Overview
 
-> In this app, make a walkthrough which culminates in deploying a contract as an anon to the harmony testnet, using zero knowledge proofs, through the use of a mixer. This tool will do it all for you, except the physical IP handling.
+> Within the scope of this proposal, the MVP is to implement a workflow which (0) enables the user to deploy a mixer using their testnet account, (1) test the mixer by inserting transactions into it, (2) recieving secret notes from said transactions, (3) extracting funds, and deploying new contract.
 
 ## Use Cases
 

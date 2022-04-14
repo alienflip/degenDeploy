@@ -1,5 +1,4 @@
 const {promises:fs} = require('fs');
-const fs_ = require('fs');
 const ethers = require("ethers");
 require("dotenv").config({ path: '../.env' });
 const snarkjs = require('snarkjs');
@@ -19,7 +18,7 @@ const privateKey = process.env.PRIVATE_KEY;
 const wallet = new ethers.Wallet(privateKey, provider);
 
 async function deposit() {
-  const contractAddress = fs_.readFileSync("../.addressNativeAchor").toString().trim();
+  const contractAddress = process.argv[2];
 
   const deposit = createDeposit(rbigint(31), rbigint(31));
   const chainId = await wallet.getChainId();

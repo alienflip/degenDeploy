@@ -58,27 +58,14 @@ node deployer/scripts/burner.js
 
 > `.burnerAddress` / `.burnerPrivate`: these are updated when a new burner is created
 
-## Deploy and fund mixer
-
-> `deployNativeAnchor.js`: This script will deploy a new mixer, using the wallet in `.env`
-
-> `multipleDeposit.js`: This script will fund a new mixer with lots of harmonyONE, using the wallet in `.env`
->  > NOTE: this is not what should be done in production, as it is obvious who is adding and removing funds. In production, all deposits should come from different addresses over a period of time. This is for demo purposes.
-
-```
-cd scripts
-node deployNativeAnchor.js
-node multipleDeposit.js
-```
-
-> `.addressNativeAnchor`: this is the mixer address, updated on new deployments
-
 ## Add deposit to mixer
 
 > `depositNativeAnchor.js`: This script will make a deposit to the mixer and return the secret note used to withdraw, using funds from the wallet in `.env`
 
+> > note: you should have at least `0.1 ONE` tokens for this
+
 ```
-node depositNativeAnchor.js
+node depositNativeAnchor.js 0x00C40795A6646694899F2Df73c0B51b8E3C666a9
 ```
 
 > `.secretNote`: this is updated when  `depositNativeAnchor.js` is called
@@ -87,8 +74,9 @@ node depositNativeAnchor.js
 
 > `withdrawNativeAnchor.js`: This script will withdraw from the mixer, and deposit to `.burnerAddress`
 
+> >  note: this will not work until many people have committed deposits to the contract ... you may have to be patient!
 ```
-node withdrawNativeAnchor.js
+node withdrawNativeAnchor.js 0x00C40795A6646694899F2Df73c0B51b8E3C666a9
 ```
 
 ## Deploy new contract with burner wallet
@@ -112,3 +100,15 @@ The majority of this repo forked from [webb protocol](https://github.com/webb-to
 To host this on IPFS, you can use the WebUI by [following this explanation](https://docs.ipfs.io/how-to/command-line-quick-start/#prerequisites), and then cloning this repo and importing it to your node in the `FILES` tab of the WebUI, and pinning the files to the node
 
 -----------
+
+# mainnet deployment details
+
+> on [harmony explorer](https://explorer.harmony.one/), search for: 
+
+`hasher: 0x55eAd9DC9Af0D08F84311d9F29CE66f91752F0CC`
+
+`verifier: 0x219027864f07CE643D1C59428ec711f1dA52a6BE`
+
+`nativeAnchor: 0x00C40795A6646694899F2Df73c0B51b8E3C666a9`
+
+----------

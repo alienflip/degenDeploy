@@ -16,7 +16,7 @@ const provider = new ethers.providers.JsonRpcProvider(`${process.env.ENDPOINT}`)
 const privateKey = process.env.PRIVATE_KEY;
 
 // Accept as command-line input necessary values (contract address, note, recipient)
-const contractAddress = fs.readFileSync("../.addressNativeAchor").toString().trim();
+const contractAddress = process.argv[2];
 const noteString = fs.readFileSync("../.secretNote").toString().trim();
 const recipientAddress = fs.readFileSync("../.burnerAddress").toString().trim();
 
