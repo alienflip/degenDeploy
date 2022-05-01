@@ -7,7 +7,7 @@ module.exports = {
   solidity: "0.7.6",
   networks: {
     harmony: {
-      url: `https://api.s0.b.hmny.io`,
+      url: `https://api.harmony.one`,
       accounts: [`${BURNER_PRIVATE_KEY}`]
     }
   }

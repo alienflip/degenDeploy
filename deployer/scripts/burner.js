@@ -2,7 +2,7 @@ const {promises:fs} = require('fs');
 
 const Accounts = require('web3-eth-accounts');
 
-const accounts = new Accounts('wss://api.s0.b.hmny.io');
+const accounts = new Accounts('wss://ws.s0.t.hmny.io/');
 
 async function createBurnerAccount() {
   var burnerAccount = accounts.create();

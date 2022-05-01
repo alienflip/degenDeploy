@@ -65,6 +65,7 @@ node deployer/scripts/burner.js
 > > note: you should have at least `0.1 ONE` tokens for this
 
 ```
+cd ~/degenDeploy/scripts
 node depositNativeAnchor.js 0x00C40795A6646694899F2Df73c0B51b8E3C666a9
 ```
 
