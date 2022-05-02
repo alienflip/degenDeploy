@@ -77,6 +77,7 @@ node depositNativeAnchor.js 0x00C40795A6646694899F2Df73c0B51b8E3C666a9
 
 > >  note: this will not work until many people have committed deposits to the contract ... you may have to be patient!
 ```
+cd ~/degenDeploy/scripts
 node withdrawNativeAnchor.js 0x00C40795A6646694899F2Df73c0B51b8E3C666a9
 ```
 
