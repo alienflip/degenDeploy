@@ -90,18 +90,8 @@ npx hardhat run scripts/deploy.js --network harmony
 
 > deploys `test.sol`
 
------------
-
-The majority of this repo forked from [webb protocol](https://github.com/webb-tools/tornado-core)
-
 ----------
 ----------
-
-# IPFS
-
-To host this on IPFS, you can use the WebUI by [following this explanation](https://docs.ipfs.io/how-to/command-line-quick-start/#prerequisites), and then cloning this repo and importing it to your node in the `FILES` tab of the WebUI, and pinning the files to the node
-
------------
 
 # mainnet deployment details
 
@@ -114,3 +104,7 @@ To host this on IPFS, you can use the WebUI by [following this explanation](http
 `nativeAnchor: 0x00C40795A6646694899F2Df73c0B51b8E3C666a9`
 
 ----------
+----------
+
+The majority of this repo forked from [webb protocol](https://github.com/webb-tools/tornado-core)
+
