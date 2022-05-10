@@ -29,11 +29,11 @@ This ask will be in line with the laid down milestones as detailed below
 
 # External Links
 
-[testnet deployment (native anchor)](https://explorer.pops.one/address/0x76cdbf0b59d54f3ed551e24929b0aae1c7541241)
-
-[testnet example use case (anon contract)](https://explorer.pops.one/address/0xb4c1af5882b28321577e3814f93d968bf53d3949)
-
 [github project](https://github.com/alienflip/degenDeploy)
+
+[hasher](https://explorer.harmony.one/tx/0x26dfacf06de2d5968f2af6a641ff33b8b3bf7818ccdc21db9191ba024f332094)
+[verifier](https://explorer.harmony.one/tx/0x840c5b3b9bd41b4c1390492f9026dbf24c3cdb8c6e65ff0d6fdb21533dc3c706)
+[nativeAnchor](https://explorer.harmony.one/tx/0x192587c181a0b0edd064878db832d52dd580f675e79916b0a7e2e98b76f69a2b)
 
 # Roadmap
 
@@ -52,5 +52,3 @@ This ask will be in line with the laid down milestones as detailed below
 # Community
 
 > we need many people to make deposits to the anchor here, so that the mixer works correctly
-
-# [Demo](https://youtu.be/12kp4Ju2sRQ)
