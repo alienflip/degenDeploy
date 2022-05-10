@@ -40,8 +40,8 @@ This ask will be in line with the laid down milestones as detailed below
 | Objective | Date | Status 
 | ---- | ---- | ----------- 
 | Testnet | 03/04/2022 | Done 
-| DAO formation | 03/05/2022 | Pending 
-| Mainnet | 03/06/2022 | Pending 
+| Mainnet | 03/05/2022 | Done 
+| Audit | 03/06/2022 | Pending 
 | 1k users | 03/07/2022 | Pending 
 | 10k users | 03/08/2022 | Pending 
 
