@@ -32,7 +32,9 @@ This ask will be in line with the laid down milestones as detailed below
 [github project](https://github.com/alienflip/degenDeploy)
 
 [hasher](https://explorer.harmony.one/tx/0x26dfacf06de2d5968f2af6a641ff33b8b3bf7818ccdc21db9191ba024f332094)
+
 [verifier](https://explorer.harmony.one/tx/0x840c5b3b9bd41b4c1390492f9026dbf24c3cdb8c6e65ff0d6fdb21533dc3c706)
+
 [nativeAnchor](https://explorer.harmony.one/tx/0x192587c181a0b0edd064878db832d52dd580f675e79916b0a7e2e98b76f69a2b)
 
 # Roadmap
