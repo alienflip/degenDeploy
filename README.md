@@ -14,6 +14,8 @@
 > Protocol 
 > > The application will create a burner account, and then use a zero-knowledge mixer in order to fund the burner wallet, then deploy your contract anonymously with the new wallet
 
+-----------
+The majority of this repo forked from [webb protocol](https://github.com/webb-tools/tornado-core)
 ------------
 
 ## Install
@@ -105,6 +107,3 @@ npx hardhat run scripts/deploy.js --network harmony
 
 ----------
 ----------
-
-The majority of this repo forked from [webb protocol](https://github.com/webb-tools/tornado-core)
-
