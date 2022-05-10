@@ -22,10 +22,10 @@ In order to get this up and running, we request $15k/year stable basic income to
 This ask will be in line with the laid down milestones as detailed below
 
 1. launching a feature-complete product on testnet 
-2. forming a DAO with 5-out-of-9 multisig with our DAOs 
 3. launching on ONE mainnet
-4. attracting 1k daily active users (with launch video, PR promotion) 
-5. attracting 10k daily active users (with a detailed roadmap, governance process) 
+4. code audit
+5. attracting 1k daily active users (with launch video, PR promotion) 
+6. attracting 10k daily active users (with a detailed roadmap, governance process) 
 
 # External Links
 
