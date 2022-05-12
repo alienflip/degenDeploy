@@ -45,8 +45,6 @@ This ask will be in line with the laid down milestones as detailed below
 | Mainnet | 03/06/2022 | Done
 | Audit + Mainnet Update | 03/07/2022 | Pending
 | DAO | 03/08/2022 | Pending 
-| 1k users | 03/09/2022 | Pending 
-| 10k users | 03/10/2022 | Pending 
 
 # Competing Projects
 
