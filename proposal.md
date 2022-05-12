@@ -50,7 +50,7 @@ This ask will be in line with the laid down milestones as detailed below
 
 # Competing Projects
 
-> none which we are aware of
+> potentially [EasyLink](https://talk.harmony.one/t/easylink-receive-payments-without-exposing-your-crypto-history/18314)
 
 # Community
 
