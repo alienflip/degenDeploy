@@ -21,11 +21,11 @@ In order to get this up and running, we request $15k/year stable basic income to
 
 This ask will be in line with the laid down milestones as detailed below
 
-1. launching a feature-complete product on testnet 
-3. launching on ONE mainnet
-4. code audit
-5. attracting 1k daily active users (with launch video, PR promotion) 
-6. attracting 10k daily active users (with a detailed roadmap, governance process) 
+1. launching a feature-complete product on our testnet
+2. forming a DAO with 5-out-of-9 multisig with our DAOs
+3. launching on our mainnet with audit
+4. attracting 1k daily active users (with launch video, full PR promotion)
+5. attracting 10k daily active users (with a detailed roadmap, governance process)
 
 # External Links
 
@@ -42,10 +42,11 @@ This ask will be in line with the laid down milestones as detailed below
 | Objective | Date | Status 
 | ---- | ---- | ----------- 
 | Testnet | 03/04/2022 | Done 
-| Mainnet | 03/05/2022 | Done 
-| Audit | 03/06/2022 | Pending 
-| 1k users | 03/07/2022 | Pending 
-| 10k users | 03/08/2022 | Pending 
+| Mainnet | 03/06/2022 | Done
+| DAO | 03/07/2022 | Pending 
+| Audit + Mainnet Update | 03/08/2022 | Pending
+| 1k users | 03/09/2022 | Pending 
+| 10k users | 03/10/2022 | Pending 
 
 # Competing Projects
 
