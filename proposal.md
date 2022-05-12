@@ -17,7 +17,7 @@ In this project, we fork [webb-tools implimentation of tornado-core](https://git
 
 # Proposal Ask
 
-In order to get this up and running, we request $15k/year stable basic income to take care of welfare and development costs. $3k per milestone.
+In order to get this up and running, we request $15k/year stable basic income to take care of welfare and development costs.
 
 This ask will be in line with the laid down milestones as detailed below
 
