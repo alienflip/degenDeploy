@@ -41,10 +41,10 @@ This ask will be in line with the laid down milestones as detailed below
 
 | Objective | Date | Status 
 | ---- | ---- | ----------- 
-| Testnet | 03/04/2022 | Done 
-| Mainnet | 03/06/2022 | Done
+| Testnet Launch | 03/04/2022 | Done 
+| Mainnet Launch | 03/06/2022 | Done
 | Audit + Mainnet Update | 03/07/2022 | Pending
-| DAO | 03/08/2022 | Pending 
+| DAO Deployment | 03/08/2022 | Pending 
 
 # Competing Projects
 
