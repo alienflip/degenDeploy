@@ -1,6 +1,6 @@
 # degenDeploy
 
-In this project, we fork [webb-tools implimentation of tornado-core](https://github.com/webb-tools/tornado-core), deploy the tornado core contract to harmony test-net using a 'public' (traceable) account, and then extend the tools provided to demonstrate how to deploy another a contract as an anonymous user, using a dummy account!
+In this project, we fork [webb-tools implimentation of tornado-core](https://github.com/webb-tools/tornado-core), and extend the tools provided to demonstrate how to deploy a contract as an anonymous user, using a dummy account!
 
 # Application Type
 
@@ -8,7 +8,7 @@ In this project, we fork [webb-tools implimentation of tornado-core](https://git
 
 # Proposal Overview
 
-> Within the scope of this proposal, the MVP is to implement a workflow which (0) enables the user to deploy a mixer using their testnet account, (1) test the mixer by inserting transactions into it, (2) recieving secret notes from said transactions, (3) extracting funds, and deploying new contract.
+> Within the scope of this proposal, the MVP is to implement a workflow which enables the user to interact with the deployed a mixer using their mainnet account, commit transactions into it, and recieving secret notes from said transactions, then extract funds to a burner and deploy new contract from the burner.
 
 ## Use Cases
 
@@ -29,7 +29,7 @@ This ask will be in line with the laid down milestones as detailed below
 
 # External Links
 
-[github project](https://github.com/alienflip/degenDeploy)
+[github project](https://github.com/alienflip/degenDeploy/tree/mainnet)
 
 [hasher](https://explorer.harmony.one/tx/0x26dfacf06de2d5968f2af6a641ff33b8b3bf7818ccdc21db9191ba024f332094)
 
@@ -45,6 +45,7 @@ This ask will be in line with the laid down milestones as detailed below
 | Beta Testing + Fixes | 03/06/2022 | Done
 | Mainnet Launch | 03/06/2022 | Done
 | Smart Contract Audit | 03/07/2022 | Pending
+| Fixes + Redeployment | 03/07/2022 | Pending
 | DAO Deployment | 03/08/2022 | Pending 
 
 # Competing Projects
