@@ -1,6 +1,6 @@
 # degenDeploy
 
-In this project, we fork [webb-tools implimentation of tornado-core](https://github.com/webb-tools/tornado-core), and extend the tools provided to demonstrate how to deploy a contract as an anonymous user, using a dummy account!
+In this project, we fork [webb-tools implementation of tornado-core](https://github.com/webb-tools/tornado-core), and extend the tools provided to demonstrate how to deploy a contract as an anonymous user, using a dummy account!
 
 # Application Type
 
@@ -8,7 +8,7 @@ In this project, we fork [webb-tools implimentation of tornado-core](https://git
 
 # Proposal Overview
 
-> Within the scope of this proposal, the MVP is to implement a workflow which enables the user to interact with the deployed a mixer using their mainnet account, commit transactions into it, and recieve secret notes from said transactions, then extract funds to a burner and deploy new contract from the burner.
+> Within the scope of this proposal, the MVP is to implement a workflow which enables the user to interact with the deployed mixer using their mainnet account, commit transactions into it, and receive secret notes from said transactions, then extract funds to a burner and deploy new contract from the burner.
 
 ## Use Cases
 
