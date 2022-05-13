@@ -8,7 +8,7 @@ In this project, we fork [webb-tools implimentation of tornado-core](https://git
 
 # Proposal Overview
 
-> Within the scope of this proposal, the MVP is to implement a workflow which enables the user to interact with the deployed a mixer using their mainnet account, commit transactions into it, and recieving secret notes from said transactions, then extract funds to a burner and deploy new contract from the burner.
+> Within the scope of this proposal, the MVP is to implement a workflow which enables the user to interact with the deployed a mixer using their mainnet account, commit transactions into it, and recieve secret notes from said transactions, then extract funds to a burner and deploy new contract from the burner.
 
 ## Use Cases
 
